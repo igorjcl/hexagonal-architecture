@@ -15,7 +15,7 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
 @ExtendWith(MockitoExtension.class)
-public class InsertCustomerUseCaseTest {
+class InsertCustomerUseCaseTest {
 
     @InjectMocks
     private InsertCustomerUseCase insertCustomerUseCase;
